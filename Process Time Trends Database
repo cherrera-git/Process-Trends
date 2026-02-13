@@ -1,0 +1,40 @@
+Process / Step,Conditions / Variant,Unit,Minimum (sec),Target (sec),P80 (sec),Confidence,Validated By (Items),Notes
+Apply Sikaflex bead (seal),Corners/seams; ~0.5mm layer,per bead area,25,45,75,Low,"AV-400-2.0, AV-LB-B",Touch-time only; cure/hold time is non-touch.
+Apply anti-seize to threads,6–8 threads; wipe excess,per fastener,15,25,40,Low,AV-400-2.0,From AV-400 mounting bracket subassembly; prep dominates if anti-seize not staged.
+Apply cable tie (small) + trim,PLT1MB or similar; position per WI; flush trim,per tie,4,6,9,Low,3530855,Used heavily for loom secure/breakouts; WI indicates ~10–12 ties total.
+Apply decal / label with fixture,Alignment fixture used; avoid bubbles,per decal,20,35,60,Low,"AV-400-2.0, AV-LB-B",Rework (bubbles/misalignment) drives P80.
+Apply tape strip (self-adhesive),2–3 inch strip; press firmly,per strip,10,18,30,Low,"AV-400-2.0, AV-LB-B",Includes peel backing + place + rub down; fixture reduces P80.
+Apply vinyl cloth label,THT-1-400-10 on small connector body,per label,10,15,25,Low,3530803,Small real estate on connector; tedious alignment.
+Apply wire marker (shrink),Heat shrink marker; position + shrink,per marker,15,25,40,Low,3530803,Includes heat gun cycle time (batching assumed).
+Assemble backshell (metal),Screws + clamp; torque 2-3 in-lbs,per backshell,45,75,110,Low,3530803,Small hardware; often dropped; torque driver verification.
+Clean surface with alcohol wipe,Prior to adhesive/sealant,per surface,10,20,35,Low,"AV-400-2.0, AV-LB-B",Standard prep; includes discard of wipe.
+Crimp terminal (Molex Mini-Fit),Semi-auto press; 18-24 AWG,per crimp,4,6,9,Medium,3530803,Machine cycle fast; handling wire is the bottleneck.
+Crimp terminal (Ring/Lug),Hand tool (ratchet); 14-10 AWG,per crimp,12,20,35,Low,AV-BAT-CABLE,Manual force required; ratchet release time included.
+Cut & Strip wire (Auto),Komax/Schleuniger; <2m length,per wire,3,5,8,High,"General, 3530803",Machine speed high; batch setup amortized.
+Cut & Strip wire (Manual),Hand cutters + strippers; >12 AWG,per end,10,15,25,Low,AV-BAT-CABLE,Large gauge handling; precise strip length check.
+Install grommet / strain relief,Push-through or slide-on; tight fit,per grommet,10,20,35,Low,AGD176400,Depends heavily on fit tightness; lubrication sometimes needed.
+Install heat shrink tubing (Small),<0.5" dia; heat gun shrink,per piece,15,25,40,Low,3530855,Positioning + shrink time; visual inspection for burning.
+Install heat shrink tubing (Large),>1.0" dia; battery cable,per piece,30,50,80,Low,AV-BAT-CABLE,Requires more heat dwell time; often thick wall adhesive.
+Install loom (split loom) - Short,Up to 1m; no breakouts,per assembly,20,35,60,Low,3530803,Simple slide on; tape ends separate step.
+Install loom (split loom) - Complex,>1m; multiple breakouts/T-junctions,per meter,40,70,110,Low,AGD176400,Feeding wires through slit is time consuming.
+Install mounting bracket,2 screws + washers; manual driver,per bracket,30,50,80,Low,AV-400-2.0,Alignment of holes often tricky on bent metal.
+Install rivet (pop rivet),Hand riveter; align holes,per rivet,15,25,40,Low,AV-LB-B,Requires grip strength; clearing mandrel takes time.
+Layout wires on board (Simple),<10 wires; simple routing,per harness,60,120,180,Low,3530803,Setup on nail board; identifying wire codes.
+Layout wires on board (Complex),>50 wires; precise branching,per harness,300,600,900,Low,AGD176400,Routing accuracy critical; untangling wires.
+Measure & Cut cable (Manual),Large OD cable; tape measure,per cut,20,35,60,Low,AV-BAT-CABLE,Unspooling heavy reel; cutting with large shears.
+Plug/Cap connector (Protective),Dust cap install,per connector,3,5,8,High,AV-400-2.0,Simple push on.
+Soldering - Wire to Pin (Connector),Solder cup; 20-24 AWG,per pin,25,45,70,Low,Custom-Mil-Spec,Heating cup; flow solder; prevent wick-up; cleaning flux.
+Soldering - Wire splice (Lap),Lap splice; heat shrink separate,per splice,40,70,110,Low,General Repair,Mechanical twist + solder flow + inspect.
+Strip cable jacket (Multi-conductor),Rotary stripper or knife; >0.5" OD,per end,25,45,75,Low,AGD176100,Careful not to nick inner conductors; removing foil/filler.
+Stuff terminal (Molex Mini-Fit),Click-in; verify retention,per terminal,3,5,8,Medium,3530803,Audible click check; pull test.
+Stuff custom footpedal connector (6-position) + verify,Custom 3500993-A; terminal orientation critical,per connector,25,45,70,Low,3530803,"WI notes: custom part, no instruction sheet; careful orientation."
+Tape harness intervals,Polymeric tape (268); every ~2ft,per assembly,45,70,100,Low,AGD176100,~10 wraps over 20ft; includes end secure both sides.
+Tape loom ends,Polymeric tape 268; per end,per end,15,25,35,Low,AGD176400,Secure loom ends to prevent fray/slide; AGD176400 requires both ends.
+Terminal block stuffing (2 pos),No polarity; verify seat,per connector,20,35,60,Medium,6581800261,Quick but needs verification.
+Tin wire end,Small 18AWG end; solder station ready,per end,5,8,12,Low,"JA1070, 0344975",Includes quick tin; assumes tip already tinned.
+Twist harness bundle to length + verify dimensions,3–4 conductors; twist to specified lengths; re-measure and adjust as needed,per assembly,45,75,120,Low,"JA1088, JA1130","Leave specified untwisted base length (e.g., 25mm) per WI."
+Unstuff wire from Mini-Fit housing,Remove existing wire from housing using extraction tool,per wire,15,30,60,Low,3530803-Rework,Requires extraction tool; risk of damaging tangs.
+Visual Inspection (First Article),100% feature check; documentation,per harness,180,300,480,Low,3530803-FA,Reading print; measuring all lengths; verifying pinout.
+Visual Inspection (In-Process),Key features (crimp, dims); no paper log,per harness,30,60,90,Medium,3530803,Quick scan of criticals before taping.
+Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,per wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.
+Wrap harness (Spiral wrap),Manual wrap; 100% coverage,per foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.

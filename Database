@@ -38,3 +38,7 @@ Visual Inspection (First Article),100% feature check; documentation,per harness,
 Visual Inspection (In-Process),Key features (crimp, dims); no paper log,per harness,30,60,90,Medium,3530803,Quick scan of criticals before taping.
 Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,per wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.
 Wrap harness (Spiral wrap),Manual wrap; 100% coverage,per foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.
+Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 piece,5,10,15,High,Cut tubing to specified length
+Wire Prep,Wire Strip (Manual/Pneumatic),Standard inner conductors,1 end,3,5,8,High,Removing insulation from inner wire
+QC,Documentation & Certificate,Prepare release docs,1 form,45,60,90,Low,PC generating final certificate
+Finishing,Packaging,Standard bagging and boxing,1 unit,30,60,90,Low,Placing in bag/box with label

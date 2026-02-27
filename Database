@@ -39,6 +39,12 @@ Visual Inspection (In-Process),Key features (crimp, dims); no paper log,per harn
 Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,per wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.
 Wrap harness (Spiral wrap),Manual wrap; 100% coverage,per foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.
 Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 piece,5,10,15,High,Cut tubing to specified length
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Mechanical - Drill/Hole Saw (Plastic),Enclosure modification + clean,1 Hole,30,45,60,Medium,ALT-ST101.3,Includes jig placement and debris brushing.
+Mechanical - Install cable gland,PG13.5 with locknut,1 Gland,15,25,35,High,ALT-ST101.3,Disassemble gland insert through hole thread nut.
+Mate connector (uFL) + Cable Tie,Antenna to PCB,1 Mating,10,15,25,High,ALT-ST101.3,Tactile click required; includes managing slack.
+Apply VHB Tape + Mount Component,Battery installation,1 Comp,25,40,60,Medium,ALT-ST101.3,Cut to length peel adhere press firmly.
+Functional Test / Firmware Flash,PC Provisioning App,1 Test,120,240,420,Low,ALT-ST101.3,Needs actual floor validation. Highly dependent on network/app speed.
 Wire Prep,Wire Strip (Manual/Pneumatic),Standard inner conductors,1 end,3,5,8,High,Removing insulation from inner wire
 QC,Documentation & Certificate,Prepare release docs,1 form,45,60,90,Low,PC generating final certificate
 Finishing,Packaging,Standard bagging and boxing,1 unit,30,60,90,Low,Placing in bag/box with label

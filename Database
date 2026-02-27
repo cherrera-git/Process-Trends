@@ -42,3 +42,12 @@ Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 piece,5,10,15,High,Cut 
 Wire Prep,Wire Strip (Manual/Pneumatic),Standard inner conductors,1 end,3,5,8,High,Removing insulation from inner wire
 QC,Documentation & Certificate,Prepare release docs,1 form,45,60,90,Low,PC generating final certificate
 Finishing,Packaging,Standard bagging and boxing,1 unit,30,60,90,Low,Placing in bag/box with label
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Strip Jacket & Trim Fillers (Multi-Conductor),6PR 20GA Shielded,1 End,65,77,95,High,Actuals-26pcs-WH200,Updated base time. Shield/drain wire requires slower processing.
+Strip wire (Pneumatic/Hand),Twisted Pair Shielded,1 Wire,10,14,20,High,Actuals-26pcs-WH200,Increased from 3s to 14s. Unwinding twisted pairs limits bulk stripping.
+Tin wire end (Solder pot),20GA stranded,1 Wire,4,6,9,High,Actuals-26pcs-WH200,Standard tinning rate recorded.
+Crimp contact (Machine),Standard Terminal,1 Crimp,2,3,5,High,Actuals-26pcs-WH200,Highly efficient machine crimp.
+Crimp contact (Hand Tool),20GA with ERGOCRIMP EQHC4111,1 Crimp,8,10,13,High,Actuals-26pcs-WH200,Operator beat expectations despite "bending" note in WI.
+Insert contact/plug into housing,AT/DT Series + Wedge Lock,1 Cavity,7,10,14,High,Actuals-26pcs-WH200,Adjusted to include wedge lock seating time.
+Electrical Test & Shrink,Multi-Conductor Harness,1 Assy,50,69,90,Medium,Actuals-26pcs-WH200,Combined standard test and heat shrink recovery.
+Apply Loom & Labels,1/2" Loom (>500mm) + Labels,1 Assy,240,284,360,High,Actuals-26pcs-WH200,Routing twisted pairs into loom is time-intensive.

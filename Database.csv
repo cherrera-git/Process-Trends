@@ -64,3 +64,5 @@ Wrap mastic/moisture tape,1428T4 Tape Kneading,1,180,300,450,Medium,M1216,High m
 Insert contact into housing,Samtec SFSD High Density,1,35,45,60,High,6580801649,Delicate pins require alignment to avoid bending.
 Apply decal / label with fixture,Vinyl Cloth ID (Manual),1,45,60,90,High,6580801649,Multi-label sets (9+ per unit) add significant overhead.
 Point-to-point manual continuity,Spreadsheet Verification,1,1800,2925,3600,Low,9500363,Testing manually against external excel sheets is a major driver.
+Install wire seal (Weather/Metri-Pack),Slide silicone seal onto wire before stripping/crimping,1 seal,5,10,15,Low,CML0344-E1,Estimated based on similar manual prep tasks; validation required on floor.
+Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 connector,5,10,15,Low,CML0344-E1,Estimated as standalone step. Often bundled with stuffing time in other assemblies.

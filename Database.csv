@@ -66,3 +66,6 @@ Apply decal / label with fixture,Vinyl Cloth ID (Manual),1,45,60,90,High,6580801
 Point-to-point manual continuity,Spreadsheet Verification,1,1800,2925,3600,Low,9500363,Testing manually against external excel sheets is a major driver.
 Install wire seal (Weather/Metri-Pack),Slide silicone seal onto wire before stripping/crimping,1 seal,5,10,15,Low,CML0344-E1,Estimated based on similar manual prep tasks; validation required on floor.
 Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 connector,5,10,15,Low,CML0344-E1,Estimated as standalone step. Often bundled with stuffing time in other assemblies.
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
+Lock TPA / Wedge Lock,Seat secondary lock on Deutsch housing manually,1 connector,5,10,15,Medium,JA1316,Upgraded confidence to medium based on JA1316 actuals validation.

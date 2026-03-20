@@ -93,3 +93,12 @@ Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,
 Twist Wire Pair (<500mm),Hand/Drill twist to 415mm,1 Pair,15,20,30,Medium,100-4090.04.01-40,Twist ORG+BLK pairs
 Apply & Recover Heatshrink (Small),FIT221-3/16BLK Bundling,1 Piece,8,12,18,Medium,100-4090.04.01-40,High friction feeding 4 twisted wires
 Insert Contact into Housing,Mini-Mate with Lance check,1 Pin,4,6,8,High,100-4090.04.01-40,Visual check for fully seated lances
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-25,Full setup amortized over 1 piece
+Cut/Strip Wire (Auto - per wire),26AWG 276mm,1 Wire,3,4,5,High,100-4150.02.02-00-25,Different strip lengths (1.3mm & 3mm)
+Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-25,Machine cut to 5mm
+Crimp Terminal (Hand Tool),Datamate 24-28ga (M80),1 Crimp,15,20,25,High,100-4150.02.02-00-25,Manual hand tool positioning required
+Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,100-4150.02.02-00-25,Done twice (Molex press + Harwin Hand tool)
+Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-25,Twisting specific color combos
+Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-25,Stuffing into two different connectors
+Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-25,Chemical application/clean-up

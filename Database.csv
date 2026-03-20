@@ -1,4 +1,4 @@
-Process / Step,Conditions / Variant,Unit,Minimum (sec),Target (sec),P80 (sec),Confidence,Validated By (Items),Notes
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Apply Sikaflex bead (seal),Corners/seams; ~0.5mm layer,per bead area,25,45,75,Low,"AV-400-2.0, AV-LB-B",Touch-time only; cure/hold time is non-touch.
 Apply anti-seize to threads,6–8 threads; wipe excess,per fastener,15,25,40,Low,AV-400-2.0,From AV-400 mounting bracket subassembly; prep dominates if anti-seize not staged.
 Apply cable tie (small) + trim,PLT1MB or similar; position per WI; flush trim,per tie,4,6,9,Low,3530855,Used heavily for loom secure/breakouts; WI indicates ~10–12 ties total.

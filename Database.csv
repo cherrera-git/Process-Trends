@@ -1,4 +1,10 @@
 [Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Setup / Material Handling (Medium),Dual Applicator Setup,1 Assembly,45,60,90,High,0302750,Amortized over standard 100pc batches
+Cut/Strip Wire (Daisy Chain/Splice),22AWG Multiple Cuts,1 Wire,8,10,15,High,0302750,Black wire requires multiple cuts for double-crimping
+Crimp Terminal (Semi-Auto press),KK.100 & ATP M575 Ring Term,1 Crimp,3,4,5,High,0302750,Reel-fed standard crimping
+Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,0302750,Done twice (KK.100 + Ring Terminal)
+Insert Contact into Housing,KK.100 .100" pitch,1 Pin,4,6,8,High,0302750,Molex KK series stuffing
+Harness Board Routing & Tying,10-Wire Internal Loom,1 Assembly,90,120,150,Medium,0302750,Routing breakout lengths and securing with ties
 Setup / Material Handling (Heavy),Large Gauge / Long Length,1 Assembly,90,120,150,High,110-0164,Unspooling 12.2m of 3/0 AWG welding cable
 Cut/Strip Wire (Heavy/Manual),3/0 AWG manual cut/strip,1 Wire,120,180,240,High,110-0164,Measuring 12.2m and manually stripping thick insulation
 Crimp Terminal (Hydraulic/Heavy),CT60 Crimper 3/0 Lug,1 Crimp,30,45,60,High,110-0164,Manual alignment in heavy-duty die set (#16 2/0)

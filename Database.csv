@@ -1,134 +1,116 @@
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
-Setup / Material Handling (Small),High-Volume Amortization,1 Batch,45,60,90,High,0302751,Setup time mathematically negligible per piece (>250pc batch)
-Cut/Strip Wire (Auto - per wire),26AWG Standard,1 Wire,3,4,5,High,0302751,Straight cuts (no daisy chain)
-Crimp Terminal (Semi-Auto press),KK.100 & Ring Terminals,1 Crimp,3,4,5,High,0302751,Reel-fed standard crimping
-Quality: Measure & Log Crimp Height,High-Volume Amortization,1 Check,30,45,60,High,0302751,First-off check amortized over massive batches
-Insert Contact into Housing,KK.100 .100" pitch (5 pos),1 Pin,4,6,8,High,0302751,Molex KK series stuffing
-Coil, Label & Bag Assembly,Small 5-wire harness,1 Assembly,25,35,45,High,0302751,Quick coil and bag
-Setup / Material Handling (Medium),Dual Applicator Setup,1 Assembly,45,60,90,High,0302750,Amortized over standard 100pc batches
-Cut/Strip Wire (Daisy Chain/Splice),22AWG Multiple Cuts,1 Wire,8,10,15,High,0302750,Black wire requires multiple cuts for double-crimping
-Crimp Terminal (Semi-Auto press),KK.100 & ATP M575 Ring Term,1 Crimp,3,4,5,High,0302750,Reel-fed standard crimping
-Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,0302750,Done twice (KK.100 + Ring Terminal)
-Insert Contact into Housing,KK.100 .100" pitch,1 Pin,4,6,8,High,0302750,Molex KK series stuffing
-Harness Board Routing & Tying,10-Wire Internal Loom,1 Assembly,90,120,150,Medium,0302750,Routing breakout lengths and securing with ties
-Setup / Material Handling (Heavy),Large Gauge / Long Length,1 Assembly,90,120,150,High,110-0164,Unspooling 12.2m of 3/0 AWG welding cable
-Cut/Strip Wire (Heavy/Manual),3/0 AWG manual cut/strip,1 Wire,120,180,240,High,110-0164,Measuring 12.2m and manually stripping thick insulation
-Crimp Terminal (Hydraulic/Heavy),CT60 Crimper 3/0 Lug,1 Crimp,30,45,60,High,110-0164,Manual alignment in heavy-duty die set (#16 2/0)
-Apply & Recover Heatshrink (Large/Adhesive),TAT-125 3/4" Dual-Wall,1 Piece,30,40,60,High,110-0164,Extended heat time required for adhesive flow
-Coil & Tie Assembly (Heavy),12.2m of 3/0 Cable,1 Assembly,90,120,150,High,110-0164,Physically demanding coiling and securing
-Apply Sikaflex bead (seal),Corners/seams; ~0.5mm layer,per bead area,25,45,75,Low,"AV-400-2.0, AV-LB-B",Touch-time only; cure/hold time is non-touch.
-Apply anti-seize to threads,6–8 threads; wipe excess,per fastener,15,25,40,Low,AV-400-2.0,From AV-400 mounting bracket subassembly; prep dominates if anti-seize not staged.
-Apply cable tie (small) + trim,PLT1MB or similar; position per WI; flush trim,per tie,4,6,9,Low,3530855,Used heavily for loom secure/breakouts; WI indicates ~10–12 ties total.
-Apply decal / label with fixture,Alignment fixture used; avoid bubbles,per decal,20,35,60,Low,"AV-400-2.0, AV-LB-B",Rework (bubbles/misalignment) drives P80.
-Apply tape strip (self-adhesive),2–3 inch strip; press firmly,per strip,10,18,30,Low,"AV-400-2.0, AV-LB-B",Includes peel backing + place + rub down; fixture reduces P80.
-Apply vinyl cloth label,THT-1-400-10 on small connector body,per label,10,15,25,Low,3530803,Small real estate on connector; tedious alignment.
-Apply wire marker (shrink),Heat shrink marker; position + shrink,per marker,15,25,40,Low,3530803,Includes heat gun cycle time (batching assumed).
-Assemble backshell (metal),Screws + clamp; torque 2-3 in-lbs,per backshell,45,75,110,Low,3530803,Small hardware; often dropped; torque driver verification.
-Clean surface with alcohol wipe,Prior to adhesive/sealant,per surface,10,20,35,Low,"AV-400-2.0, AV-LB-B",Standard prep; includes discard of wipe.
-Crimp terminal (Molex Mini-Fit),Semi-auto press; 18-24 AWG,per crimp,4,6,9,Medium,3530803,Machine cycle fast; handling wire is the bottleneck.
-Crimp terminal (Ring/Lug),Hand tool (ratchet); 14-10 AWG,per crimp,12,20,35,Low,AV-BAT-CABLE,Manual force required; ratchet release time included.
-Cut & Strip wire (Auto),Komax/Schleuniger; <2m length,per wire,3,5,8,High,"General, 3530803",Machine speed high; batch setup amortized.
-Cut & Strip wire (Manual),Hand cutters + strippers; >12 AWG,per end,10,15,25,Low,AV-BAT-CABLE,Large gauge handling; precise strip length check.
-Install grommet / strain relief,Push-through or slide-on; tight fit,per grommet,10,20,35,Low,AGD176400,Depends heavily on fit tightness; lubrication sometimes needed.
-Install heat shrink tubing (Small),<0.5" dia; heat gun shrink,per piece,15,25,40,Low,3530855,Positioning + shrink time; visual inspection for burning.
-Install heat shrink tubing (Large),>1.0" dia; battery cable,per piece,30,50,80,Low,AV-BAT-CABLE,Requires more heat dwell time; often thick wall adhesive.
-Install loom (split loom) - Short,Up to 1m; no breakouts,per assembly,20,35,60,Low,3530803,Simple slide on; tape ends separate step.
-Install loom (split loom) - Complex,>1m; multiple breakouts/T-junctions,per meter,40,70,110,Low,AGD176400,Feeding wires through slit is time consuming.
-Install mounting bracket,2 screws + washers; manual driver,per bracket,30,50,80,Low,AV-400-2.0,Alignment of holes often tricky on bent metal.
-Install rivet (pop rivet),Hand riveter; align holes,per rivet,15,25,40,Low,AV-LB-B,Requires grip strength; clearing mandrel takes time.
-Layout wires on board (Simple),<10 wires; simple routing,per harness,60,120,180,Low,3530803,Setup on nail board; identifying wire codes.
-Layout wires on board (Complex),>50 wires; precise branching,per harness,300,600,900,Low,AGD176400,Routing accuracy critical; untangling wires.
-Measure & Cut cable (Manual),Large OD cable; tape measure,per cut,20,35,60,Low,AV-BAT-CABLE,Unspooling heavy reel; cutting with large shears.
-Plug/Cap connector (Protective),Dust cap install,per connector,3,5,8,High,AV-400-2.0,Simple push on.
-Soldering - Wire to Pin (Connector),Solder cup; 20-24 AWG,per pin,25,45,70,Low,Custom-Mil-Spec,Heating cup; flow solder; prevent wick-up; cleaning flux.
-Soldering - Wire splice (Lap),Lap splice; heat shrink separate,per splice,40,70,110,Low,General Repair,Mechanical twist + solder flow + inspect.
-Strip cable jacket (Multi-conductor),Rotary stripper or knife; >0.5" OD,per end,25,45,75,Low,AGD176100,Careful not to nick inner conductors; removing foil/filler.
-Stuff terminal (Molex Mini-Fit),Click-in; verify retention,per terminal,3,5,8,Medium,3530803,Audible click check; pull test.
-Stuff custom footpedal connector (6-position) + verify,Custom 3500993-A; terminal orientation critical,per connector,25,45,70,Low,3530803,"WI notes: custom part, no instruction sheet; careful orientation."
-Tape harness intervals,Polymeric tape (268); every ~2ft,per assembly,45,70,100,Low,AGD176100,~10 wraps over 20ft; includes end secure both sides.
-Tape loom ends,Polymeric tape 268; per end,per end,15,25,35,Low,AGD176400,Secure loom ends to prevent fray/slide; AGD176400 requires both ends.
-Terminal block stuffing (2 pos),No polarity; verify seat,per connector,20,35,60,Medium,6581800261,Quick but needs verification.
-Tin wire end,Small 18AWG end; solder station ready,per end,5,8,12,Low,"JA1070, 0344975",Includes quick tin; assumes tip already tinned.
-Twist harness bundle to length + verify dimensions,3–4 conductors; twist to specified lengths; re-measure and adjust as needed,per assembly,45,75,120,Low,"JA1088, JA1130","Leave specified untwisted base length (e.g., 25mm) per WI."
-Unstuff wire from Mini-Fit housing,Remove existing wire from housing using extraction tool,per wire,15,30,60,Low,3530803-Rework,Requires extraction tool; risk of damaging tangs.
-Visual Inspection (First Article),100% feature check; documentation,per harness,180,300,480,Low,3530803-FA,Reading print; measuring all lengths; verifying pinout.
-Visual Inspection (In-Process),Key features (crimp, dims); no paper log,per harness,30,60,90,Medium,3530803,Quick scan of criticals before taping.
-Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,per wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.
-Wrap harness (Spiral wrap),Manual wrap; 100% coverage,per foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.
-Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 piece,5,10,15,High,Cut tubing to specified length
-Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-45,Full setup amortized over 1 piece
-Cut/Strip Wire (Auto - per wire),26AWG 484mm,1 Wire,3,4,5,High,100-4150.02.02-00-45,Different strip lengths (1.3mm & 3mm)
-Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-45,8pcs cut to 5mm
-Crimp Terminal (Hand Tool),Datamate 24-28ga (M80),1 Crimp,15,20,25,High,100-4150.02.02-00-45,Manual hand tool positioning required
-Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,100-4150.02.02-00-45,Done twice (Molex press + Harwin Hand tool)
-Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-45,Twisting specific color combos
-Apply & Recover Heatshrink (Small),FIT221-1/8BLK Spaced,1 Piece,8,12,18,Medium,100-4150.02.02-00-45,8pcs spaced 50mm apart
-Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-45,Stuffing into two different connectors
-Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-45,Chemical application/clean-up
-Mechanical - Drill/Hole Saw (Plastic),Enclosure modification + clean,1 Hole,30,45,60,Medium,ALT-ST101.3,Includes jig placement and debris brushing.
-Mechanical - Install cable gland,PG13.5 with locknut,1 Gland,15,25,35,High,ALT-ST101.3,Disassemble gland insert through hole thread nut.
-Mate connector (uFL) + Cable Tie,Antenna to PCB,1 Mating,10,15,25,High,ALT-ST101.3,Tactile click required; includes managing slack.
-Apply VHB Tape + Mount Component,Battery installation,1 Comp,25,40,60,Medium,ALT-ST101.3,Cut to length peel adhere press firmly.
-Functional Test / Firmware Flash,PC Provisioning App,1 Test,120,240,420,Low,ALT-ST101.3,Needs actual floor validation. Highly dependent on network/app speed.
-Wire Prep,Wire Strip (Manual/Pneumatic),Standard inner conductors,1 end,3,5,8,High,Removing insulation from inner wire
-QC,Documentation & Certificate,Prepare release docs,1 form,45,60,90,Low,PC generating final certificate
-Finishing,Packaging,Standard bagging and boxing,1 unit,30,60,90,Low,Placing in bag/box with label
-Strip Jacket & Trim Fillers (Multi-Conductor),6PR 20GA Shielded,1 End,65,77,95,High,Actuals-26pcs-WH200,Updated base time. Shield/drain wire requires slower processing.
-Strip wire (Pneumatic/Hand),Twisted Pair Shielded,1 Wire,10,14,20,High,Actuals-26pcs-WH200,Increased from 3s to 14s. Unwinding twisted pairs limits bulk stripping.
-Tin wire end (Solder pot),20GA stranded,1 Wire,4,6,9,High,Actuals-26pcs-WH200,Standard tinning rate recorded.
-Crimp contact (Machine),Standard Terminal,1 Crimp,2,3,5,High,Actuals-26pcs-WH200,Highly efficient machine crimp.
-Crimp contact (Hand Tool),20GA with ERGOCRIMP EQHC4111,1 Crimp,8,10,13,High,Actuals-26pcs-WH200,Operator beat expectations despite "bending" note in WI.
-Insert contact/plug into housing,AT/DT Series + Wedge Lock,1 Cavity,7,10,14,High,Actuals-26pcs-WH200,Adjusted to include wedge lock seating time.
-Electrical Test & Shrink,Multi-Conductor Harness,1 Assy,50,69,90,Medium,Actuals-26pcs-WH200,Combined standard test and heat shrink recovery.
-Apply Loom & Labels,1/2" Loom (>500mm) + Labels,1 Assy,240,284,360,High,Actuals-26pcs-WH200,Routing twisted pairs into loom is time-intensive.
-Hand Solder - Wire to Pad (20-24 AWG),Standard PCB Pad,1 Wire,10,15,20,High,ALT-ST101 / WH200,Includes positioning soldering and quick visual check.
-Manual prep (hardware),RJ45 Cat6a w/ Load Bar,1,600,900,1200,High,320-2185,Load bar alignment and wire "stuffing check" is critical.
-Manual prep (heavy cable/shield),Braid Shield Pull-Through,1,600,900,1200,Medium,301203,High-dexterity creation of braid hole for 20c.
-Solder wire to cup/terminal,Resistor Solder (Delicate),1,300,510,720,Medium,6580800592,Requires precision soldering to specific terminal positions.
-Manual prep (hardware),Loctite 425 Precise App,1,600,900,1200,Medium,9500137,Requires careful application to ensure blue is invisible when dry.
-Wrap mastic/moisture tape,1428T4 Tape Kneading,1,180,300,450,Medium,M1216,High manual variance for sealing 9 branches.
-Insert contact into housing,Samtec SFSD High Density,1,35,45,60,High,6580801649,Delicate pins require alignment to avoid bending.
-Apply decal / label with fixture,Vinyl Cloth ID (Manual),1,45,60,90,High,6580801649,Multi-label sets (9+ per unit) add significant overhead.
-Point-to-point manual continuity,Spreadsheet Verification,1,1800,2925,3600,Low,9500363,Testing manually against external excel sheets is a major driver.
-Install wire seal (Weather/Metri-Pack),Slide silicone seal onto wire before stripping/crimping,1 seal,5,10,15,Low,CML0344-E1,Estimated based on similar manual prep tasks; validation required on floor.
-Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 connector,5,10,15,Low,CML0344-E1,Estimated as standalone step. Often bundled with stuffing time in other assemblies.
-Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
-Lock TPA / Wedge Lock,Seat secondary lock on Deutsch housing manually,1 connector,5,10,15,Medium,JA1316,Upgraded confidence to medium based on JA1316 actuals validation.
-Auto Cut & Strip (CC36S),26 AWG Wire,3,1.5,2.0,3.0,High,TQ460-0047-00DC,Crimp Center CC36S max exposed strip 3mm
-Wire Tinning (Manual),26 AWG Wire End,6,3.0,4.0,6.0,High,TQ460-0047-00DC,Max 0.023" dia tolerance
-Manual Component Prep,Trim Sensor Lead,3,2.0,3.0,5.0,High,TQ460-0047-00DC,Trim LM60BIZ leads to 5mm
-Manual Solder (Wire to Pin),Through-Hole Application,3,8.0,12.0,18.0,Medium,TQ460-0047-00DC,Minimal flux per WI
-Apply & Heat Shrink Tube,FIT221-3/64BLK (10mm),3,10.0,15.0,20.0,High,TQ460-0047-00DC,Over sensor joints
-Bag & Apply Label,ESD Bag + Label,1,25.0,35.0,45.0,High,TQ460-0047-00DC,Per Syteline CCR40
-Setup / Material Handling (Small),Ethernet/Data Cables,1 Assembly,45,60,75,High,100-4496.02.01-40,Traveler review and wire unspooling
-Cut/Strip Wire (Auto - per wire),26-28AWG <500mm,1 Wire,3,4,5,High,100-4496.02.01-40,Machine cut/strip
-Crimp Terminal (Semi-Auto press),1.25mm Skt (50079-8000),1 Crimp,3,4,5,High,100-4496.02.01-40,Reeled terminals
-Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,High,100-4496.02.01-40,Required per OP-23 Quality logging
-Twist Wire Pair (<500mm),Hand/Drill twist to 410mm,1 Pair,15,20,30,Medium,100-4496.02.01-40,Twist ORG+WHT / GRN+WHT
-Apply & Recover Heatshrink (Small),FIT221-1/8BLK (5mm),1 Piece,8,12,18,Medium,100-4496.02.01-40,Shrink over twist ends
-Insert Contact into Housing,1.25mm 8c (51021-0800),1 Pin,4,6,8,High,100-4496.02.01-40,Molex PicoBlade stuffing
-Setup / Material Handling (Small),Power Cables (Low Vol),1 Assembly,45,60,75,High,100-4090.04.01-40,Setup amortized over small batch
-Cut/Strip Wire (Auto - per wire),22AWG <500mm,1 Wire,3,4,5,High,100-4090.04.01-40,E22BLK / E22ORG
-Cut Tubing/Shrink (Auto - per pc),3/16 inch diameter,1 Piece,2,3,4,High,100-4090.04.01-40,Machine cut to 5mm
-Crimp Terminal (Semi-Auto press),Mini-Mate 20-24ga (CC79R),1 Crimp,3,4,5,High,100-4090.04.01-40,Reeled terminals
-Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,High,100-4090.04.01-40,Required per OP-23
-Twist Wire Pair (<500mm),Hand/Drill twist to 415mm,1 Pair,15,20,30,Medium,100-4090.04.01-40,Twist ORG+BLK pairs
-Apply & Recover Heatshrink (Small),FIT221-3/16BLK Bundling,1 Piece,8,12,18,Medium,100-4090.04.01-40,High friction feeding 4 twisted wires
-Insert Contact into Housing,Mini-Mate with Lance check,1 Pin,4,6,8,High,100-4090.04.01-40,Visual check for fully seated lances
-Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-25,Full setup amortized over 1 piece
-Cut/Strip Wire (Auto - per wire),26AWG 276mm,1 Wire,3,4,5,High,100-4150.02.02-00-25,Different strip lengths (1.3mm & 3mm)
-Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-25,Machine cut to 5mm
-Crimp Terminal (Hand Tool),Datamate 24-28ga (M80),1 Crimp,15,20,25,High,100-4150.02.02-00-25,Manual hand tool positioning required
-Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,100-4150.02.02-00-25,Done twice (Molex press + Harwin Hand tool)
-Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-25,Twisting specific color combos
-Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-25,Stuffing into two different connectors
-Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-25,Chemical application/clean-up
-Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-45,Full setup amortized over 1 piece
-Cut/Strip Wire (Auto - per wire),26AWG 484mm,1 Wire,3,4,5,High,100-4150.02.02-00-45,Different strip lengths (1.3mm & 3mm)
-Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-45,8pcs cut to 5mm
-Crimp Terminal (Hand Tool),Datamate 24-28ga (M80),1 Crimp,15,20,25,High,100-4150.02.02-00-45,Manual hand tool positioning required
-Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,100-4150.02.02-00-45,Done twice (Molex press + Harwin Hand tool)
-Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-45,Twisting specific color combos
-Apply & Recover Heatshrink (Small),FIT221-1/8BLK Spaced,1 Piece,8,12,18,Medium,100-4150.02.02-00-45,8pcs spaced 50mm apart
-Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-45,Stuffing into two different connectors
-Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-45,Chemical application/clean-up
+Process Category,Process Name,Variant/Condition,Unit,Min,Target,P80,Confidence,Validated By (Job#),Notes
+Assembly,Apply & Heat Shrink Tube,FIT221-3/64BLK (10mm),3 Pieces,10.0,15.0,20.0,High,TQ460-0047-00DC,Over sensor joints
+Assembly,Apply & Recover Heatshrink (Large/Adhesive),TAT-125 3/4" Dual-Wall,1 Piece,30,40,60,High,110-0164,Extended heat time required for adhesive flow
+Assembly,Apply & Recover Heatshrink (Small),FIT221-1/8BLK Spaced,1 Piece,8,12,18,Medium,100-4150.02.02-00-45,8pcs spaced 50mm apart
+Assembly,Apply & Recover Heatshrink (Small),FIT221-1/8BLK (5mm),1 Piece,8,12,18,Medium,100-4496.02.01-40,Shrink over twist ends
+Assembly,Apply & Recover Heatshrink (Small),FIT221-3/16BLK Bundling,1 Piece,8,12,18,Medium,100-4090.04.01-40,High friction feeding 4 twisted wires
+Assembly,Apply Loom & Labels,1/2" Loom (>500mm) + Labels,1 Assy,240,284,360,High,Actuals-26pcs-WH200,Routing twisted pairs into loom is time-intensive.
+Assembly,Apply cable tie (small) + trim,PLT1MB or similar; position per WI; flush trim,1 Tie,4,6,9,Low,3530855,Used heavily for loom secure/breakouts; WI indicates ~10–12 ties total.
+Assembly,Apply tape strip (self-adhesive),2–3 inch strip; press firmly,1 Strip,10,18,30,Low,"AV-400-2.0, AV-LB-B",Includes peel backing + place + rub down; fixture reduces P80.
+Assembly,Apply wire marker (shrink),Heat shrink marker; position + shrink,1 Marker,15,25,40,Low,3530803,Includes heat gun cycle time (batching assumed).
+Assembly,Coil & Tie Assembly (Heavy),12.2m of 3/0 Cable,1 Assembly,90,120,150,High,110-0164,Physically demanding coiling and securing
+Assembly,Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
+Assembly,Harness Board Routing & Tying,10-Wire Internal Loom,1 Assembly,90,120,150,Medium,0302750,Routing breakout lengths and securing with ties
+Assembly,Insert Contact into Housing,KK.100 .100" pitch (5 pos),1 Pin,4,6,8,High,0302751,Molex KK series stuffing
+Assembly,Insert Contact into Housing,KK.100 .100" pitch,1 Pin,4,6,8,High,0302750,Molex KK series stuffing
+Assembly,Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-25 / 100-4150.02.02-00-45,Stuffing into two different connectors
+Assembly,Insert Contact into Housing,1.25mm 8c (51021-0800),1 Pin,4,6,8,High,100-4496.02.01-40,Molex PicoBlade stuffing
+Assembly,Insert Contact into Housing,Mini-Mate with Lance check,1 Pin,4,6,8,High,100-4090.04.01-40,Visual check for fully seated lances
+Assembly,Insert contact into housing,Samtec SFSD High Density,1 Conn,35,45,60,High,6580801649,Delicate pins require alignment to avoid bending.
+Assembly,Insert contact/plug into housing,AT/DT Series + Wedge Lock,1 Cavity,7,10,14,High,Actuals-26pcs-WH200,Adjusted to include wedge lock seating time.
+Assembly,Install grommet / strain relief,Push-through or slide-on; tight fit,1 Grommet,10,20,35,Low,AGD176400,Depends heavily on fit tightness; lubrication sometimes needed.
+Assembly,Install heat shrink tubing (Large),>1.0" dia; battery cable,1 Piece,30,50,80,Low,AV-BAT-CABLE,Requires more heat dwell time; often thick wall adhesive.
+Assembly,Install heat shrink tubing (Small),<0.5" dia; heat gun shrink,1 Piece,15,25,40,Low,3530855,Positioning + shrink time; visual inspection for burning.
+Assembly,Install loom (split loom) - Complex,>1m; multiple breakouts/T-junctions,1 Meter,40,70,110,Low,AGD176400,Feeding wires through slit is time consuming.
+Assembly,Install loom (split loom) - Short,Up to 1m; no breakouts,1 Assembly,20,35,60,Low,3530803,Simple slide on; tape ends separate step.
+Assembly,Install wire seal (Weather/Metri-Pack),Slide silicone seal onto wire before stripping/crimping,1 Seal,5,10,15,Low,CML0344-E1,Estimated based on similar manual prep tasks; validation required on floor.
+Assembly,Layout wires on board (Complex),>50 wires; precise branching,1 Harness,300,600,900,Low,AGD176400,Routing accuracy critical; untangling wires.
+Assembly,Layout wires on board (Simple),<10 wires; simple routing,1 Harness,60,120,180,Low,3530803,Setup on nail board; identifying wire codes.
+Assembly,Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 Conn,5,10,15,Low,CML0344-E1,Estimated as standalone step. Often bundled with stuffing time in other assemblies.
+Assembly,Lock TPA / Wedge Lock,Seat secondary lock on Deutsch housing manually,1 Conn,5,10,15,Medium,JA1316,Upgraded confidence to medium based on JA1316 actuals validation.
+Assembly,Mate connector (uFL) + Cable Tie,Antenna to PCB,1 Mating,10,15,25,High,ALT-ST101.3,Tactile click required; includes managing slack.
+Assembly,Plug/Cap connector (Protective),Dust cap install,1 Conn,3,5,8,High,AV-400-2.0,Simple push on.
+Assembly,Stuff custom footpedal connector (6-position) + verify,Custom 3500993-A; terminal orientation critical,1 Conn,25,45,70,Low,3530803,"WI notes: custom part, no instruction sheet; careful orientation."
+Assembly,Stuff terminal (Molex Mini-Fit),Click-in; verify retention,1 Terminal,3,5,8,Medium,3530803,Audible click check; pull test.
+Assembly,Tape harness intervals,Polymeric tape (268); every ~2ft,1 Assembly,45,70,100,Low,AGD176100,~10 wraps over 20ft; includes end secure both sides.
+Assembly,Tape loom ends,Polymeric tape 268; per end,1 End,15,25,35,Low,AGD176400,Secure loom ends to prevent fray/slide; AGD176400 requires both ends.
+Assembly,Terminal block stuffing (2 pos),No polarity; verify seat,1 Conn,20,35,60,Medium,6581800261,Quick but needs verification.
+Assembly,Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-25 / 100-4150.02.02-00-45,Twisting specific color combos
+Assembly,Twist Wire Pair (<500mm),Hand/Drill twist to 410mm,1 Pair,15,20,30,Medium,100-4496.02.01-40,Twist ORG+WHT / GRN+WHT
+Assembly,Twist Wire Pair (<500mm),Hand/Drill twist to 415mm,1 Pair,15,20,30,Medium,100-4090.04.01-40,Twist ORG+BLK pairs
+Assembly,Twist harness bundle to length + verify dimensions,3–4 conductors; twist to specified lengths; re-measure and adjust as needed,1 Assembly,45,75,120,Low,"JA1088, JA1130","Leave specified untwisted base length (e.g., 25mm) per WI."
+Assembly,Unstuff wire from Mini-Fit housing,Remove existing wire from housing using extraction tool,1 Wire,15,30,60,Low,3530803-Rework,Requires extraction tool; risk of damaging tangs.
+Assembly,Wrap harness (Spiral wrap),Manual wrap; 100% coverage,1 Foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.
+Assembly,Wrap mastic/moisture tape,1428T4 Tape Kneading,1 Assy,180,300,450,Medium,M1216,High manual variance for sealing 9 branches.
+Finishing,Apply decal / label with fixture,Alignment fixture used; avoid bubbles,1 Label,20,35,60,Low,"AV-400-2.0, AV-LB-B",Rework (bubbles/misalignment) drives P80.
+Finishing,Apply decal / label with fixture,Vinyl Cloth ID (Manual),1 Label,45,60,90,High,6580801649,Multi-label sets (9+ per unit) add significant overhead.
+Finishing,Apply vinyl cloth label,THT-1-400-10 on small connector body,1 Label,10,15,25,Low,3530803,Small real estate on connector; tedious alignment.
+Finishing,Bag & Apply Label,ESD Bag + Label,1 Assy,25.0,35.0,45.0,High,TQ460-0047-00DC,Per Syteline CCR40
+Finishing,Coil / Label & Bag Assembly,Small 5-wire harness,1 Assembly,25,35,45,High,0302751,Quick coil and bag
+Finishing,Packaging,Standard bagging and boxing,1 Assy,30,60,90,Low,,Placing in bag/box with label
+Mechanical,Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-25 / 100-4150.02.02-00-45,Chemical application/clean-up
+Mechanical,Apply Sikaflex bead (seal),Corners/seams; ~0.5mm layer,1 Bead,25,45,75,Low,"AV-400-2.0, AV-LB-B",Touch-time only; cure/hold time is non-touch.
+Mechanical,Apply VHB Tape + Mount Component,Battery installation,1 Comp,25,40,60,Medium,ALT-ST101.3,Cut to length peel adhere press firmly.
+Mechanical,Apply anti-seize to threads,6–8 threads; wipe excess,1 Fastener,15,25,40,Low,AV-400-2.0,From AV-400 mounting bracket subassembly; prep dominates if anti-seize not staged.
+Mechanical,Assemble backshell (metal),Screws + clamp; torque 2-3 in-lbs,1 Backshell,45,75,110,Low,3530803,Small hardware; often dropped; torque driver verification.
+Mechanical,Install mounting bracket,2 screws + washers; manual driver,1 Bracket,30,50,80,Low,AV-400-2.0,Alignment of holes often tricky on bent metal.
+Mechanical,Install rivet (pop rivet),Hand riveter; align holes,1 Rivet,15,25,40,Low,AV-LB-B,Requires grip strength; clearing mandrel takes time.
+Mechanical,Mechanical - Drill/Hole Saw (Plastic),Enclosure modification + clean,1 Hole,30,45,60,Medium,ALT-ST101.3,Includes jig placement and debris brushing.
+Mechanical,Mechanical - Install cable gland,PG13.5 with locknut,1 Gland,15,25,35,High,ALT-ST101.3,Disassemble gland insert through hole thread nut.
+Quality,Documentation & Certificate,Prepare release docs,1 Form,45,60,90,Low,,PC generating final certificate
+Quality,Electrical Test & Shrink,Multi-Conductor Harness,1 Assy,50,69,90,Medium,Actuals-26pcs-WH200,Combined standard test and heat shrink recovery.
+Quality,Functional Test / Firmware Flash,PC Provisioning App,1 Test,120,240,420,Low,ALT-ST101.3,Needs actual floor validation. Highly dependent on network/app speed.
+Quality,Point-to-point manual continuity,Spreadsheet Verification,1 Assy,1800,2925,3600,Low,9500363,Testing manually against external excel sheets is a major driver.
+Quality,Quality: Measure & Log Crimp Height,High-Volume Amortization,1 Check,30,45,60,High,0302751,First-off check amortized over massive batches
+Quality,Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High,0302750 / 100-4150.02.02-00-25 / 100-4150.02.02-00-45,Done twice (Molex press + Harwin Hand tool/KK.100 + Ring)
+Quality,Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,High,100-4496.02.01-40 / 100-4090.04.01-40,Required per OP-23 Quality logging
+Quality,Visual Inspection (First Article),100% feature check; documentation,1 Harness,180,300,480,Low,3530803-FA,Reading print; measuring all lengths; verifying pinout.
+Quality,Visual Inspection (In-Process),Key features (crimp, dims); no paper log,1 Harness,30,60,90,Medium,3530803,Quick scan of criticals before taping.
+Setup,Clean surface with alcohol wipe,Prior to adhesive/sealant,1 Surface,10,20,35,Low,"AV-400-2.0, AV-LB-B",Standard prep; includes discard of wipe.
+Setup,Manual Component Prep,Trim Sensor Lead,3 Leads,2.0,3.0,5.0,High,TQ460-0047-00DC,Trim LM60BIZ leads to 5mm
+Setup,Manual prep (hardware),RJ45 Cat6a w/ Load Bar,1 Assy,600,900,1200,High,320-2185,"Load bar alignment and wire ""stuffing check"" is critical."
+Setup,Manual prep (hardware),Loctite 425 Precise App,1 Assy,600,900,1200,Medium,9500137,Requires careful application to ensure blue is invisible when dry.
+Setup,Manual prep (heavy cable/shield),Braid Shield Pull-Through,1 Assy,600,900,1200,Medium,301203,High-dexterity creation of braid hole for 20c.
+Setup,Setup / Material Handling (Heavy),Large Gauge / Long Length,1 Assembly,90,120,150,High,110-0164,Unspooling 12.2m of 3/0 AWG welding cable
+Setup,Setup / Material Handling (Medium),Dual Applicator Setup,1 Assembly,45,60,90,High,0302750,Amortized over standard 100pc batches
+Setup,Setup / Material Handling (Small),High-Volume Amortization,1 Batch,45,60,90,High,0302751,Setup time mathematically negligible per piece (>250pc batch)
+Setup,Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-25 / 100-4150.02.02-00-45,Full setup amortized over 1 piece
+Setup,Setup / Material Handling (Small),Ethernet/Data Cables,1 Assembly,45,60,75,High,100-4496.02.01-40,Traveler review and wire unspooling
+Setup,Setup / Material Handling (Small),Power Cables (Low Vol),1 Assembly,45,60,75,High,100-4090.04.01-40,Setup amortized over small batch
+Termination,Crimp Terminal (Hand Tool),Datamate 24-28ga (M80),1 Crimp,15,20,25,High,100-4150.02.02-00-25 / 100-4150.02.02-00-45,Manual hand tool positioning required
+Termination,Crimp Terminal (Hydraulic/Heavy),CT60 Crimper 3/0 Lug,1 Crimp,30,45,60,High,110-0164,Manual alignment in heavy-duty die set (#16 2/0)
+Termination,Crimp Terminal (Semi-Auto press),KK.100 & Ring Terminals,1 Crimp,3,4,5,High,0302751,Reel-fed standard crimping
+Termination,Crimp Terminal (Semi-Auto press),KK.100 & ATP M575 Ring Term,1 Crimp,3,4,5,High,0302750,Reel-fed standard crimping
+Termination,Crimp Terminal (Semi-Auto press),1.25mm Skt (50079-8000),1 Crimp,3,4,5,High,100-4496.02.01-40,Reeled terminals
+Termination,Crimp Terminal (Semi-Auto press),Mini-Mate 20-24ga (CC79R),1 Crimp,3,4,5,High,100-4090.04.01-40,Reeled terminals
+Termination,Crimp contact (Hand Tool),20GA with ERGOCRIMP EQHC4111,1 Crimp,8,10,13,High,Actuals-26pcs-WH200,Operator beat expectations despite "bending" note in WI.
+Termination,Crimp contact (Machine),Standard Terminal,1 Crimp,2,3,5,High,Actuals-26pcs-WH200,Highly efficient machine crimp.
+Termination,Crimp terminal (Molex Mini-Fit),Semi-auto press; 18-24 AWG,1 Crimp,4,6,9,Medium,3530803,Machine cycle fast; handling wire is the bottleneck.
+Termination,Crimp terminal (Ring/Lug),Hand tool (ratchet); 14-10 AWG,1 Crimp,12,20,35,Low,AV-BAT-CABLE,Manual force required; ratchet release time included.
+Termination,Hand Solder - Wire to Pad (20-24 AWG),Standard PCB Pad,1 Wire,10,15,20,High,ALT-ST101 / WH200,Includes positioning soldering and quick visual check.
+Termination,Manual Solder (Wire to Pin),Through-Hole Application,3 Pins,8.0,12.0,18.0,Medium,TQ460-0047-00DC,Minimal flux per WI
+Termination,Solder wire to cup/terminal,Resistor Solder (Delicate),1 Conn,300,510,720,Medium,6580800592,Requires precision soldering to specific terminal positions.
+Termination,Soldering - Wire splice (Lap),Lap splice; heat shrink separate,1 Splice,40,70,110,Low,General Repair,Mechanical twist + solder flow + inspect.
+Termination,Soldering - Wire to Pin (Connector),Solder cup; 20-24 AWG,1 Pin,25,45,70,Low,Custom-Mil-Spec,Heating cup; flow solder; prevent wick-up; cleaning flux.
+Termination,Tin wire end,Small 18AWG end; solder station ready,1 End,5,8,12,Low,"JA1070, 0344975",Includes quick tin; assumes tip already tinned.
+Termination,Tin wire end (Solder pot),20GA stranded,1 Wire,4,6,9,High,Actuals-26pcs-WH200,Standard tinning rate recorded.
+Termination,Wire Tinning (Manual),26 AWG Wire End,6 Ends,3.0,4.0,6.0,High,TQ460-0047-00DC,Max 0.023" dia tolerance
+Wire Prep,Auto Cut & Strip (CC36S),26 AWG Wire,3,1.5,2.0,3.0,High,TQ460-0047-00DC,Crimp Center CC36S max exposed strip 3mm
+Wire Prep,Cut & Strip wire (Auto),Komax/Schleuniger; <2m length,1 Wire,3,5,8,High,"General, 3530803",Machine speed high; batch setup amortized.
+Wire Prep,Cut & Strip wire (Manual),Hand cutters + strippers; >12 AWG,1 End,10,15,25,Low,AV-BAT-CABLE,Large gauge handling; precise strip length check.
+Wire Prep,Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-25 / 100-4150.02.02-00-45,8pcs cut to 5mm
+Wire Prep,Cut Tubing/Shrink (Auto - per pc),3/16 inch diameter,1 Piece,2,3,4,High,100-4090.04.01-40,Machine cut to 5mm
+Wire Prep,Cut/Strip Wire (Auto - per wire),26AWG Standard,1 Wire,3,4,5,High,0302751,Straight cuts (no daisy chain)
+Wire Prep,Cut/Strip Wire (Auto - per wire),26AWG 484mm,1 Wire,3,4,5,High,100-4150.02.02-00-45,Different strip lengths (1.3mm & 3mm)
+Wire Prep,Cut/Strip Wire (Auto - per wire),26-28AWG <500mm,1 Wire,3,4,5,High,100-4496.02.01-40,Machine cut/strip
+Wire Prep,Cut/Strip Wire (Auto - per wire),22AWG <500mm,1 Wire,3,4,5,High,100-4090.04.01-40,E22BLK / E22ORG
+Wire Prep,Cut/Strip Wire (Auto - per wire),26AWG 276mm,1 Wire,3,4,5,High,100-4150.02.02-00-25,Different strip lengths (1.3mm & 3mm)
+Wire Prep,Cut/Strip Wire (Daisy Chain/Splice),22AWG Multiple Cuts,1 Wire,8,10,15,High,0302750,Black wire requires multiple cuts for double-crimping
+Wire Prep,Cut/Strip Wire (Heavy/Manual),3/0 AWG manual cut/strip,1 Wire,120,180,240,High,110-0164,Measuring 12.2m and manually stripping thick insulation
+Wire Prep,Measure & Cut cable (Manual),Large OD cable; tape measure,1 Cut,20,35,60,Low,AV-BAT-CABLE,Unspooling heavy reel; cutting with large shears.
+Wire Prep,Strip Jacket & Trim Fillers (Multi-Conductor),6PR 20GA Shielded,1 End,65,77,95,High,Actuals-26pcs-WH200,Updated base time. Shield/drain wire requires slower processing.
+Wire Prep,Strip cable jacket (Multi-conductor),Rotary stripper or knife; >0.5" OD,1 End,25,45,75,Low,AGD176100,Careful not to nick inner conductors; removing foil/filler.
+Wire Prep,Strip wire (Pneumatic/Hand),Twisted Pair Shielded,1 Wire,10,14,20,High,Actuals-26pcs-WH200,Increased from 3s to 14s. Unwinding twisted pairs limits bulk stripping.
+Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 Piece,5,10,15,High,,Cut tubing to specified length
+Wire Prep,Wire Strip (Manual/Pneumatic),Standard inner conductors,1 End,3,5,8,High,,Removing insulation from inner wire
+Wire Prep,Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,1 Wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.

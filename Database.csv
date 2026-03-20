@@ -69,3 +69,10 @@ Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 connec
 [Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
 Lock TPA / Wedge Lock,Seat secondary lock on Deutsch housing manually,1 connector,5,10,15,Medium,JA1316,Upgraded confidence to medium based on JA1316 actuals validation.
+[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Auto Cut & Strip (CC36S),26 AWG Wire,3,1.5,2.0,3.0,High,TQ460-0047-00DC,Crimp Center CC36S max exposed strip 3mm
+Wire Tinning (Manual),26 AWG Wire End,6,3.0,4.0,6.0,High,TQ460-0047-00DC,Max 0.023" dia tolerance
+Manual Component Prep,Trim Sensor Lead,3,2.0,3.0,5.0,High,TQ460-0047-00DC,Trim LM60BIZ leads to 5mm
+Manual Solder (Wire to Pin),Through-Hole Application,3,8.0,12.0,18.0,Medium,TQ460-0047-00DC,Minimal flux per WI
+Apply & Heat Shrink Tube,FIT221-3/64BLK (10mm),3,10.0,15.0,20.0,High,TQ460-0047-00DC,Over sensor joints
+Bag & Apply Label,ESD Bag + Label,1,25.0,35.0,45.0,High,TQ460-0047-00DC,Per Syteline CCR40

@@ -1,4 +1,9 @@
 [Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
+Setup / Material Handling (Heavy),Large Gauge / Long Length,1 Assembly,90,120,150,High,110-0164,Unspooling 12.2m of 3/0 AWG welding cable
+Cut/Strip Wire (Heavy/Manual),3/0 AWG manual cut/strip,1 Wire,120,180,240,High,110-0164,Measuring 12.2m and manually stripping thick insulation
+Crimp Terminal (Hydraulic/Heavy),CT60 Crimper 3/0 Lug,1 Crimp,30,45,60,High,110-0164,Manual alignment in heavy-duty die set (#16 2/0)
+Apply & Recover Heatshrink (Large/Adhesive),TAT-125 3/4" Dual-Wall,1 Piece,30,40,60,High,110-0164,Extended heat time required for adhesive flow
+Coil & Tie Assembly (Heavy),12.2m of 3/0 Cable,1 Assembly,90,120,150,High,110-0164,Physically demanding coiling and securing
 Apply Sikaflex bead (seal),Corners/seams; ~0.5mm layer,per bead area,25,45,75,Low,"AV-400-2.0, AV-LB-B",Touch-time only; cure/hold time is non-touch.
 Apply anti-seize to threads,6–8 threads; wipe excess,per fastener,15,25,40,Low,AV-400-2.0,From AV-400 mounting bracket subassembly; prep dominates if anti-seize not staged.
 Apply cable tie (small) + trim,PLT1MB or similar; position per WI; flush trim,per tie,4,6,9,Low,3530855,Used heavily for loom secure/breakouts; WI indicates ~10–12 ties total.
@@ -39,7 +44,6 @@ Visual Inspection (In-Process),Key features (crimp, dims); no paper log,per harn
 Wire stripping (Inner conductors),Hand stripper; 18-22 AWG,per wire,3,5,8,Medium,AGD176100,Fast with calibrated tool.
 Wrap harness (Spiral wrap),Manual wrap; 100% coverage,per foot,20,35,60,Low,Custom-Robotics,Tedious; RSI risk; consistent overlap required.
 Wire Prep,Tubing Cutting (Manual),Standard Heat Shrink,1 piece,5,10,15,High,Cut tubing to specified length
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-45,Full setup amortized over 1 piece
 Cut/Strip Wire (Auto - per wire),26AWG 484mm,1 Wire,3,4,5,High,100-4150.02.02-00-45,Different strip lengths (1.3mm & 3mm)
 Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-45,8pcs cut to 5mm
@@ -76,17 +80,14 @@ Apply decal / label with fixture,Vinyl Cloth ID (Manual),1,45,60,90,High,6580801
 Point-to-point manual continuity,Spreadsheet Verification,1,1800,2925,3600,Low,9500363,Testing manually against external excel sheets is a major driver.
 Install wire seal (Weather/Metri-Pack),Slide silicone seal onto wire before stripping/crimping,1 seal,5,10,15,Low,CML0344-E1,Estimated based on similar manual prep tasks; validation required on floor.
 Lock TPA / Wedge Lock,Seat secondary lock on connector housing manually,1 connector,5,10,15,Low,CML0344-E1,Estimated as standalone step. Often bundled with stuffing time in other assemblies.
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
 Lock TPA / Wedge Lock,Seat secondary lock on Deutsch housing manually,1 connector,5,10,15,Medium,JA1316,Upgraded confidence to medium based on JA1316 actuals validation.
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Auto Cut & Strip (CC36S),26 AWG Wire,3,1.5,2.0,3.0,High,TQ460-0047-00DC,Crimp Center CC36S max exposed strip 3mm
 Wire Tinning (Manual),26 AWG Wire End,6,3.0,4.0,6.0,High,TQ460-0047-00DC,Max 0.023" dia tolerance
 Manual Component Prep,Trim Sensor Lead,3,2.0,3.0,5.0,High,TQ460-0047-00DC,Trim LM60BIZ leads to 5mm
 Manual Solder (Wire to Pin),Through-Hole Application,3,8.0,12.0,18.0,Medium,TQ460-0047-00DC,Minimal flux per WI
 Apply & Heat Shrink Tube,FIT221-3/64BLK (10mm),3,10.0,15.0,20.0,High,TQ460-0047-00DC,Over sensor joints
 Bag & Apply Label,ESD Bag + Label,1,25.0,35.0,45.0,High,TQ460-0047-00DC,Per Syteline CCR40
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Setup / Material Handling (Small),Ethernet/Data Cables,1 Assembly,45,60,75,High,100-4496.02.01-40,Traveler review and wire unspooling
 Cut/Strip Wire (Auto - per wire),26-28AWG <500mm,1 Wire,3,4,5,High,100-4496.02.01-40,Machine cut/strip
 Crimp Terminal (Semi-Auto press),1.25mm Skt (50079-8000),1 Crimp,3,4,5,High,100-4496.02.01-40,Reeled terminals
@@ -94,7 +95,6 @@ Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,
 Twist Wire Pair (<500mm),Hand/Drill twist to 410mm,1 Pair,15,20,30,Medium,100-4496.02.01-40,Twist ORG+WHT / GRN+WHT
 Apply & Recover Heatshrink (Small),FIT221-1/8BLK (5mm),1 Piece,8,12,18,Medium,100-4496.02.01-40,Shrink over twist ends
 Insert Contact into Housing,1.25mm 8c (51021-0800),1 Pin,4,6,8,High,100-4496.02.01-40,Molex PicoBlade stuffing
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Setup / Material Handling (Small),Power Cables (Low Vol),1 Assembly,45,60,75,High,100-4090.04.01-40,Setup amortized over small batch
 Cut/Strip Wire (Auto - per wire),22AWG <500mm,1 Wire,3,4,5,High,100-4090.04.01-40,E22BLK / E22ORG
 Cut Tubing/Shrink (Auto - per pc),3/16 inch diameter,1 Piece,2,3,4,High,100-4090.04.01-40,Machine cut to 5mm
@@ -103,7 +103,6 @@ Quality: Measure & Log Crimp Height,First-off Micrometer check,1 Check,30,45,60,
 Twist Wire Pair (<500mm),Hand/Drill twist to 415mm,1 Pair,15,20,30,Medium,100-4090.04.01-40,Twist ORG+BLK pairs
 Apply & Recover Heatshrink (Small),FIT221-3/16BLK Bundling,1 Piece,8,12,18,Medium,100-4090.04.01-40,High friction feeding 4 twisted wires
 Insert Contact into Housing,Mini-Mate with Lance check,1 Pin,4,6,8,High,100-4090.04.01-40,Visual check for fully seated lances
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-25,Full setup amortized over 1 piece
 Cut/Strip Wire (Auto - per wire),26AWG 276mm,1 Wire,3,4,5,High,100-4150.02.02-00-25,Different strip lengths (1.3mm & 3mm)
 Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-25,Machine cut to 5mm
@@ -112,7 +111,6 @@ Quality: Measure & Log Crimp Height,Two separate terminals,1 Check,30,45,60,High
 Twist Wire Pair (<500mm),Hand twist BLK+YEL / BLK+GRN,1 Pair,15,20,30,Medium,100-4150.02.02-00-25,Twisting specific color combos
 Insert Contact into Housing,Datamate + Molex,1 Pin,4,6,8,High,100-4150.02.02-00-25,Stuffing into two different connectors
 Apply RTV / Silicone (Small),Loctite 5140,1 Assembly,45,60,90,Medium,100-4150.02.02-00-25,Chemical application/clean-up
-[Process Name],[Variant/Condition],[Unit],[Min],[Target],[P80],[Confidence],[Validated By (Job#)],[Notes]
 Setup / Material Handling (Small),Complex Low Vol,1 Assembly,45,60,75,High,100-4150.02.02-00-45,Full setup amortized over 1 piece
 Cut/Strip Wire (Auto - per wire),26AWG 484mm,1 Wire,3,4,5,High,100-4150.02.02-00-45,Different strip lengths (1.3mm & 3mm)
 Cut Tubing/Shrink (Auto - per pc),1/8 inch diameter,1 Piece,2,3,4,High,100-4150.02.02-00-45,8pcs cut to 5mm

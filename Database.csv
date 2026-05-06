@@ -10,6 +10,9 @@ Assembly,Apply tape strip (self-adhesive),2–3 inch strip; press firmly,1 Strip
 Assembly,Apply wire marker (shrink),Heat shrink marker; position + shrink,1 Marker,15,25,40,Low,3530803,Includes heat gun cycle time (batching assumed).
 Assembly,Coil & Tie Assembly (Heavy),12.2m of 3/0 Cable,1 Assembly,90,120,150,High,110-0164,Physically demanding coiling and securing
 Assembly,Full Sub-Assembly Baseline,Deutsch 4c Pigtail (JA1316),1 Assy,255,281,300,High,JOB0006387/JOB0010123,Matches historical 4.7 min average. 4 cuts/4 crimps/1 splice.
+Assembly,Full Sub-Assembly Baseline,UPMP Cable Assy (41c Circ Mil),1 Assy,9720,10110,10500,High,JOB0008208/JOB0000990,"Actuals (168.5m) show 65% reduction vs 8.0hr Syteline routing. Includes 41c DMC hand crimping, testing, and C of C."
+Assembly,Full Sub-Assembly Baseline,KI-1 4 Output Wire Guide,1 Assy,15360,17814,20268,High,FA00000530/JOB0005179,"Actuals (296.9m) show 38% reduction vs 8.0hr Syteline routing. High manual prep with 155 DIN ferrules and flipped heatshrink labels."
+Assembly,Full Sub-Assembly Baseline,6K Head SX18 Source Cable (6581800679),1 Assy,2292,6996,11700,Medium,243410/243701,"Actuals average 116.6m vs 4.0hr routing. Extreme variance between jobs (38m vs 195m). Includes resistor solder, multiple crimps, and 15 labels."
 Assembly,Harness Board Routing & Tying,10-Wire Internal Loom,1 Assembly,90,120,150,Medium,0302750,Routing breakout lengths and securing with ties
 Assembly,Insert Contact into Housing,KK.100 .100" pitch (5 pos),1 Pin,4,6,8,High,0302751,Molex KK series stuffing
 Assembly,Insert Contact into Housing,KK.100 .100" pitch,1 Pin,4,6,8,High,0302750,Molex KK series stuffing
@@ -93,7 +96,7 @@ Termination,Solder wire to cup/terminal,Resistor Solder (Delicate),1 Conn,300,51
 Termination,Soldering - Wire splice (Lap),Lap splice; heat shrink separate,1 Splice,40,70,110,Low,General Repair,Mechanical twist + solder flow + inspect.
 Termination,Soldering - Wire to Pin (Connector),Solder cup; 20-24 AWG,1 Pin,25,45,70,Low,Custom-Mil-Spec,Heating cup; flow solder; prevent wick-up; cleaning flux.
 Termination,Tin wire end,Small 18AWG end; solder station ready,1 End,5,8,12,Low,"JA1070, 0344975",Includes quick tin; assumes tip already tinned.
-Termination,Tin wire end (Solder pot),20GA stranded,1 Wire,4,6,9,High,Actuals-26pcs-WH200,Standard tinning rate recorded.
+Termination,Tin wire end (Solder pot),20GA stranded,1 Wire,4,6,9,High,Actuals-26pcs-WH200,Standard rate recorded.
 Termination,Wire Tinning (Manual),26 AWG Wire End,6 Ends,3.0,4.0,6.0,High,TQ460-0047-00DC,Max 0.023" dia tolerance
 Wire Prep,Auto Cut & Strip (CC36S),26 AWG Wire,3,1.5,2.0,3.0,High,TQ460-0047-00DC,Crimp Center CC36S max exposed strip 3mm
 Wire Prep,Cut & Strip wire (Auto),Komax/Schleuniger; <2m length,1 Wire,3,5,8,High,"General, 3530803",Machine speed high; batch setup amortized.

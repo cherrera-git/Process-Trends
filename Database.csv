@@ -1,4 +1,28 @@
 Process Category,Process Name,Variant/Condition,Unit,Min,Target,P80,Confidence,Validated By (Job#),Notes
+Cascadia Motion,88-0301-03,H1,Assembly,15.88,20.25,23.82,Estimated,Pending Actuals,Standard Average: 22.04 mins
+Cascadia Motion,88-0302-03,H3,Assembly,15.88,20.25,23.82,Estimated,Pending Actuals,Standard Average: 22.04 mins
+Cascadia Motion,88-0303-03,H7,Assembly,15.88,20.25,23.82,Estimated,Pending Actuals,Standard Average: 22.04 mins
+Cascadia Motion,88-0304-02,H2,Assembly,15.88,20.25,23.82,Estimated,Pending Actuals,Standard Average: 22.04 mins
+Cascadia Motion,88-0305-02,H4,Assembly,15.88,20.25,23.82,Estimated,Pending Actuals,Standard Average: 22.04 mins
+Cascadia Motion,88-0306-02,H6,Assembly,8.45,10.77,12.67,Estimated,Pending Actuals,Standard Average: 11.72 mins (QMS Flag: Requires Eng Fix)
+Cascadia Motion,88-0307-02,H23,Assembly,10.28,13.11,15.42,Estimated,Pending Actuals,Standard Average: 14.27 mins
+Cascadia Motion,88-0308-02,H24,Assembly,10.28,13.11,15.42,Estimated,Pending Actuals,Standard Average: 14.27 mins
+Cascadia Motion,88-0309-02,H8,Assembly,7.95,10.14,11.93,Estimated,Pending Actuals,Standard Average: 11.04 mins
+Cascadia Motion,88-0310-02,H9,Assembly,7.95,10.14,11.93,Estimated,Pending Actuals,Standard Average: 11.04 mins
+Cascadia Motion,88-0311-02,H10A,Assembly,11.80,15.05,17.70,Estimated,Pending Actuals,Standard Average: 16.38 mins
+Cascadia Motion,88-0314-02,H14,Assembly,16.25,20.72,24.38,Estimated,Pending Actuals,Standard Average: 22.55 mins
+Cascadia Motion,88-0318-02,H18,Assembly,10.53,13.42,15.79,Estimated,Pending Actuals,Standard Average: 14.61 mins
+Cascadia Motion,88-0319-03,H19,Assembly,15.48,19.74,23.22,Estimated,Pending Actuals,Standard Average: 21.48 mins
+Cascadia Motion,88-0320-03,H20,Assembly,17.42,22.22,26.14,Estimated,Pending Actuals,Standard Average: 24.18 mins (QMS Flag: Requires Eng Fix)
+Cascadia Motion,88-0321-03,H21,Assembly,22.30,28.44,33.45,Estimated,Pending Actuals,Standard Average: 30.95 mins
+Cascadia Motion,88-0322-02,H22,Assembly,9.32,11.88,13.98,Estimated,Pending Actuals,Standard Average: 12.93 mins
+Cascadia Motion,88-0329-03,H29,Assembly,8.58,10.94375,12.875,Estimated,Pending Actuals,Standard Average: 11.909375 mins
+Cascadia Motion,88-0330-03,H30,Assembly,8.833333333333334,11.2625,13.25,Estimated,Pending Actuals,Standard Average: 12.25625 mins
+Cascadia Motion,88-0331-02,H12,Assembly,6.633333333333334,8.4575,9.95,Estimated,Pending Actuals,Standard Average: 9.20375 mins
+Cascadia Motion,88-0332-02,H13,Assembly,6.633333333333334,8.4575,9.95,Estimated,Pending Actuals,Standard Average: 9.20375 mins
+Cascadia Motion,88-0333-02,H10B,Assembly,9.816666666666666,12.51625,14.725,Estimated,Pending Actuals,Standard Average: 13.620625 mins
+Cascadia Motion,88-0334-01,H32,Assembly,4.583333333333333,5.84375,6.875,Estimated,Pending Actuals,Standard Average: 6.359375 mins
+Cascadia Motion,88-0340-01,H17A,Assembly,19.266666666666666,24.565,28.9,Estimated,Pending Actuals,Standard Average: 26.7325 mins
 Assembly,Apply & Heat Shrink Tube,FIT221-3/64BLK (10mm),3 Pieces,10.0,15.0,20.0,High,TQ460-0047-00DC,Over sensor joints
 Assembly,Apply & Recover Heatshrink (Large/Adhesive),TAT-125 3/4" Dual-Wall,1 Piece,30,40,60,High,110-0164,Extended heat time required for adhesive flow
 Assembly,Apply & Recover Heatshrink (Small),FIT221-1/8BLK Spaced,1 Piece,8,12,18,Medium,100-4150.02.02-00-45,8pcs spaced 50mm apart
